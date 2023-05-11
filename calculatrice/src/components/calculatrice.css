@@ -1,0 +1,38 @@
+.numbers{
+  display: flex;
+  width: 150px;
+  height: 135px;
+  background-color: grey;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 36px;
+}
+
+.operators{
+  display: flex;
+  width: 150px;
+  height: 135px;
+  background-color: rgb(225, 133, 68);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 36px;
+}
+
+.buttons{
+  display: grid;
+  gap: 0px;
+  grid-template-columns: auto auto auto auto;
+  width: fit-content;
+}
+
+.screen{
+  width: 600px;
+  height: 135px;
+  background: black;
+  color: white;
+  font-size: 36px;
+}
